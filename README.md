@@ -83,4 +83,3 @@ Control Torque Output – Knee Joint
 <img width="600" alt="image" src="https://github.com/user-attachments/assets/52f31e22-a6c2-49e1-ac77-94b1f0c1a8a1" /> *Figure 11: Knee joint control torque transition between SMC and LQR.*
 🧩 ZMP-Based Body Motion Tracking
 Position Tracking of Quadruped Robot Along X and Y Axes
-<img width="600" alt="image" src="https://github.com/user-attachments/assets/c7550df6-148c-42bb-824a-a587dcb3f62c" /> *Figure 12: Body motion tracking using ZMP controller in trot gait.*
