@@ -27,12 +27,78 @@ while the low-level joint control combines:
 
 ## 🚀 How to Run
 1. Open MATLAB and set this folder as your working directory.  
-2. Run `main_LQR_SMC_script.m` to compute controller gains.  
-3. Open and simulate `singlcontact_control_smc_lqr_mydimes_reaction.slx`.  
-4. View gait and stability results through generated plots.
+2. Run `main_LQR_SMC_script.m` to compute controller gains.
+3. Run `ABCDvalues_lqr_quad_mydime_rection.m` to compute controller gains.
+4. Run `robotparametersCtrl_modify_mydiem_rection.m` to compute controller gains.
+5. Open and simulate `singlcontact_control_smc_lqr_mydimes_reaction.slx`.  
+6. View gait and stability results through generated plots.
+   
 
 ## 📊 Results
 - Stable trot gait verified through simulation  
 - 15 gait cycles achieved in 10 seconds (~0.42 m/s)  
 - 90% MSE reduction in knee tracking with NN-SMC + LQR  
-- Maintains stability under applied disturbances  
+- Maintains stability under applied disturbances
+
+- Parameter	Symbol	Value	Unit
+Body Mass	M	6.0	kg
+Upper Leg Length	l₁	0.20	m
+Lower Leg Length	l₂	0.20	m
+Upper Leg Mass	m₁	0.45	kg
+Lower Leg Mass	m₂	0.065	kg
+Gravitational Acceleration	g	9.81	m/s²
+Body Length (X)	Lx	0.40	m
+Body Width (Y)	Ly	0.20	m
+Body Height (Z)	Lz	0.15	m
+
+ZMP Formulation:
+x_ZMP=x_cg-(x_cg^'' z_cg)/g
+y_ZMP=y_cg-(y_cg^'' z_cg)/g
+
+<img width="817" height="315" alt="image" src="https://github.com/user-attachments/assets/c7550df6-148c-42bb-824a-a587dcb3f62c" />
+
+Bipedal Approximation of Quadruped Dynamics for Trot Gait Control
+
+<img width="798" height="718" alt="image" src="https://github.com/user-attachments/assets/5e939222-4953-426a-98e9-b3cee2f82054" />
+Quadruped Robot Footprint and ZMP Trajectory During Trot Gait
+
+<img width="1005" height="693" alt="image" src="https://github.com/user-attachments/assets/ed4cde48-27ea-4049-8239-ada36ad99dc4" />
+Control System Architecture for Quadruped Robot Locomotion
+
+<img width="940" height="705" alt="image" src="https://github.com/user-attachments/assets/dcda871c-db44-4877-8905-33500e46f7ac" />
+
+PID controller position tracking for knee and hip joints
+
+<img width="940" height="705" alt="image" src="https://github.com/user-attachments/assets/9497033b-714f-4669-9320-46d90cd49099" />
+PID controller MSE for knee and hip joints
+
+<img width="940" height="705" alt="image" src="https://github.com/user-attachments/assets/dbe88fee-96da-4fb4-b668-791b3ee01677" />
+Hybrid SMC+LQR position tracking for knee and hip joints
+
+<img width="940" height="705" alt="image" src="https://github.com/user-attachments/assets/41e938b2-ac9f-4f1c-88bd-dfc1d58c2d3b" />
+SMC+LQR controller MSE for knee and hip joints
+
+<img width="940" height="705" alt="image" src="https://github.com/user-attachments/assets/ad4257a0-b266-4fb2-a8cf-cb481f66882c" />
+Position tracking for NNSMC+LQR under disturbance
+
+<img width="940" height="705" alt="image" src="https://github.com/user-attachments/assets/dc230c71-aaa4-484a-beff-263846997dbc" />
+MSE comparison between SMC+LQR and NNSMC+LQR
+
+<img width="940" height="705" alt="image" src="https://github.com/user-attachments/assets/8a2ab6f9-e89f-4513-b543-1ac74b6a51b6" />
+Control torque output with NNSMC and LQR phases for the hip joint
+
+<img width="940" height="705" alt="image" src="https://github.com/user-attachments/assets/6c916abc-e3ae-4259-a396-9213aaf8e782" />
+Control torque output with NNSMC and LQR phases for knee joint
+
+<img width="940" height="705" alt="image" src="https://github.com/user-attachments/assets/52f31e22-a6c2-49e1-ac77-94b1f0c1a8a1" />
+
+position tracking of quadruped robot about x and y axis using ZMP
+
+
+
+
+
+
+
+
+
