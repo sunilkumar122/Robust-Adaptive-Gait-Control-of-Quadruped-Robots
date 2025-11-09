@@ -40,16 +40,17 @@ while the low-level joint control combines:
 - 90% MSE reduction in knee tracking with NN-SMC + LQR  
 - Maintains stability under applied disturbances
 
-- Parameter	Symbol	Value	Unit
+⚙️ System Parameters
+Parameter	Symbol	Value	Unit
 Body Mass	M	6.0	kg
 Upper Leg Length	l₁	0.20	m
 Lower Leg Length	l₂	0.20	m
 Upper Leg Mass	m₁	0.45	kg
 Lower Leg Mass	m₂	0.065	kg
 Gravitational Acceleration	g	9.81	m/s²
-Body Length (X)	Lx	0.40	m
-Body Width (Y)	Ly	0.20	m
-Body Height (Z)	Lz	0.15	m
+Body Length (X)	Lₓ	0.40	m
+Body Width (Y)	Lᵧ	0.20	m
+Body Height (Z)	L𝓏	0.15	m
 
 🧮 ZMP Formulation (LIPM Approximation)
 
