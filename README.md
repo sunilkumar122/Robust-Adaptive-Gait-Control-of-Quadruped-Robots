@@ -59,29 +59,28 @@ y_ZMP=y_cg-(y_cg^'' z_cg)/g
 
 📊 Simulation Results
 Bipedal Approximation of Quadruped Dynamics for Trot Gait Control
-<img width="798" height="718" alt="image" src="https://github.com/user-attachments/assets/5e939222-4953-426a-98e9-b3cee2f82054" />
+<img width="600" alt="image" src="https://github.com/user-attachments/assets/5e939222-4953-426a-98e9-b3cee2f82054" /> *Figure 1: Simplified bipedal representation used for trot gait dynamic analysis.*
 Quadruped Robot Footprint and ZMP Trajectory During Trot Gait
-<img width="1005" height="693" alt="image" src="https://github.com/user-attachments/assets/ed4cde48-27ea-4049-8239-ada36ad99dc4" />
+<img width="600" alt="image" src="https://github.com/user-attachments/assets/ed4cde48-27ea-4049-8239-ada36ad99dc4" /> *Figure 2: Footstep pattern and ZMP trajectory confirming cyclic stability.*
 Control System Architecture for Quadruped Robot Locomotion
-<img width="940" height="705" alt="image" src="https://github.com/user-attachments/assets/dcda871c-db44-4877-8905-33500e46f7ac" />
+<img width="600" alt="image" src="https://github.com/user-attachments/assets/dcda871c-db44-4877-8905-33500e46f7ac" /> *Figure 3: Hierarchical control structure integrating ZMP, SMC, and LQR layers.*
 🧠 Controller Performance
 PID Controller – Knee & Hip Joint Position Tracking
-<img width="940" height="705" alt="image" src="https://github.com/user-attachments/assets/9497033b-714f-4669-9320-46d90cd49099" />
+<img width="600" alt="image" src="https://github.com/user-attachments/assets/9497033b-714f-4669-9320-46d90cd49099" /> *Figure 4: PID joint tracking showing steady-state accuracy.*
 PID Controller – Mean Squared Error (MSE)
-<img width="940" height="705" alt="image" src="https://github.com/user-attachments/assets/dbe88fee-96da-4fb4-b668-791b3ee01677" />
+<img width="600" alt="image" src="https://github.com/user-attachments/assets/dbe88fee-96da-4fb4-b668-791b3ee01677" /> *Figure 5: MSE comparison for PID-controlled hip and knee joints.*
 Hybrid SMC + LQR – Position Tracking
-<img width="940" height="705" alt="image" src="https://github.com/user-attachments/assets/41e938b2-ac9f-4f1c-88bd-dfc1d58c2d3b" />
+<img width="600" alt="image" src="https://github.com/user-attachments/assets/41e938b2-ac9f-4f1c-88bd-dfc1d58c2d3b" /> *Figure 6: Enhanced tracking using hybrid SMC–LQR controller.*
 SMC + LQR – MSE Comparison
-<img width="940" height="705" alt="image" src="https://github.com/user-attachments/assets/ad4257a0-b266-4fb2-a8cf-cb481f66882c" />
+<img width="600" alt="image" src="https://github.com/user-attachments/assets/ad4257a0-b266-4fb2-a8cf-cb481f66882c" /> *Figure 7: MSE improvement with hybrid SMC–LQR control.*
 NNSMC + LQR – Position Tracking Under Disturbance
-<img width="940" height="705" alt="image" src="https://github.com/user-attachments/assets/dc230c71-aaa4-484a-beff-263846997dbc" />
+<img width="600" alt="image" src="https://github.com/user-attachments/assets/dc230c71-aaa4-484a-beff-263846997dbc" /> *Figure 8: Disturbance rejection capability using neural-enhanced SMC.*
 MSE Comparison – SMC + LQR vs NNSMC + LQR
-<img width="940" height="705" alt="image" src="https://github.com/user-attachments/assets/8a2ab6f9-e89f-4513-b543-1ac74b6a51b6" />
+<img width="600" alt="image" src="https://github.com/user-attachments/assets/8a2ab6f9-e89f-4513-b543-1ac74b6a51b6" /> *Figure 9: Reduction in MSE with neural adaptation (≈90% improvement).*
 Control Torque Output – Hip Joint
-<img width="940" height="705" alt="image" src="https://github.com/user-attachments/assets/6c916abc-e3ae-4259-a396-9213aaf8e782" />
+<img width="600" alt="image" src="https://github.com/user-attachments/assets/6c916abc-e3ae-4259-a396-9213aaf8e782" /> *Figure 10: Hip joint control torque during SMC and LQR phases.*
 Control Torque Output – Knee Joint
-<img width="940" height="705" alt="image" src="https://github.com/user-attachments/assets/52f31e22-a6c2-49e1-ac77-94b1f0c1a8a1" />
+<img width="600" alt="image" src="https://github.com/user-attachments/assets/52f31e22-a6c2-49e1-ac77-94b1f0c1a8a1" /> *Figure 11: Knee joint control torque transition between SMC and LQR.*
 🧩 ZMP-Based Body Motion Tracking
-
-Position tracking of quadruped robot along X and Y axes using ZMP control:
-<img width="817" height="315" alt="image" src="https://github.com/user-attachments/assets/c7550df6-148c-42bb-824a-a587dcb3f62c" />
+Position Tracking of Quadruped Robot Along X and Y Axes
+<img width="600" alt="image" src="https://github.com/user-attachments/assets/c7550df6-148c-42bb-824a-a587dcb3f62c" /> *Figure 12: Body motion tracking using ZMP controller in trot gait.*
