@@ -57,48 +57,31 @@ y_ZMP=y_cg-(y_cg^'' z_cg)/g
 
 <img width="817" height="315" alt="image" src="https://github.com/user-attachments/assets/c7550df6-148c-42bb-824a-a587dcb3f62c" />
 
+📊 Simulation Results
 Bipedal Approximation of Quadruped Dynamics for Trot Gait Control
-
 <img width="798" height="718" alt="image" src="https://github.com/user-attachments/assets/5e939222-4953-426a-98e9-b3cee2f82054" />
 Quadruped Robot Footprint and ZMP Trajectory During Trot Gait
-
 <img width="1005" height="693" alt="image" src="https://github.com/user-attachments/assets/ed4cde48-27ea-4049-8239-ada36ad99dc4" />
 Control System Architecture for Quadruped Robot Locomotion
-
 <img width="940" height="705" alt="image" src="https://github.com/user-attachments/assets/dcda871c-db44-4877-8905-33500e46f7ac" />
-
-PID controller position tracking for knee and hip joints
-
+🧠 Controller Performance
+PID Controller – Knee & Hip Joint Position Tracking
 <img width="940" height="705" alt="image" src="https://github.com/user-attachments/assets/9497033b-714f-4669-9320-46d90cd49099" />
-PID controller MSE for knee and hip joints
-
+PID Controller – Mean Squared Error (MSE)
 <img width="940" height="705" alt="image" src="https://github.com/user-attachments/assets/dbe88fee-96da-4fb4-b668-791b3ee01677" />
-Hybrid SMC+LQR position tracking for knee and hip joints
-
+Hybrid SMC + LQR – Position Tracking
 <img width="940" height="705" alt="image" src="https://github.com/user-attachments/assets/41e938b2-ac9f-4f1c-88bd-dfc1d58c2d3b" />
-SMC+LQR controller MSE for knee and hip joints
-
+SMC + LQR – MSE Comparison
 <img width="940" height="705" alt="image" src="https://github.com/user-attachments/assets/ad4257a0-b266-4fb2-a8cf-cb481f66882c" />
-Position tracking for NNSMC+LQR under disturbance
-
+NNSMC + LQR – Position Tracking Under Disturbance
 <img width="940" height="705" alt="image" src="https://github.com/user-attachments/assets/dc230c71-aaa4-484a-beff-263846997dbc" />
-MSE comparison between SMC+LQR and NNSMC+LQR
-
+MSE Comparison – SMC + LQR vs NNSMC + LQR
 <img width="940" height="705" alt="image" src="https://github.com/user-attachments/assets/8a2ab6f9-e89f-4513-b543-1ac74b6a51b6" />
-Control torque output with NNSMC and LQR phases for the hip joint
-
+Control Torque Output – Hip Joint
 <img width="940" height="705" alt="image" src="https://github.com/user-attachments/assets/6c916abc-e3ae-4259-a396-9213aaf8e782" />
-Control torque output with NNSMC and LQR phases for knee joint
-
+Control Torque Output – Knee Joint
 <img width="940" height="705" alt="image" src="https://github.com/user-attachments/assets/52f31e22-a6c2-49e1-ac77-94b1f0c1a8a1" />
+🧩 ZMP-Based Body Motion Tracking
 
-position tracking of quadruped robot about x and y axis using ZMP
-
-
-
-
-
-
-
-
-
+Position tracking of quadruped robot along X and Y axes using ZMP control:
+<img width="817" height="315" alt="image" src="https://github.com/user-attachments/assets/c7550df6-148c-42bb-824a-a587dcb3f62c" />
