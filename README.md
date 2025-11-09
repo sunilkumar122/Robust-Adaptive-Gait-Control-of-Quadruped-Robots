@@ -55,7 +55,7 @@ ZMP Formulation:
 x_ZMP=x_cg-(x_cg^'' z_cg)/g
 y_ZMP=y_cg-(y_cg^'' z_cg)/g
 
-<img width="817" height="315" alt="image" src="https://github.com/user-attachments/assets/c7550df6-148c-42bb-824a-a587dcb3f62c" />
+<img width="600" alt="image" alt="image" src="https://github.com/user-attachments/assets/c7550df6-148c-42bb-824a-a587dcb3f62c" />
 
 📊 Simulation Results
 Bipedal Approximation of Quadruped Dynamics for Trot Gait Control
