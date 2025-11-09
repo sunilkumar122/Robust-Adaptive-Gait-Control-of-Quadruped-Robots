@@ -14,11 +14,6 @@ while the low-level joint control combines:
 - **Linear Quadratic Regulator (LQR)** for swing phase,
 - ensuring robust and stable trot gait tracking.
 
-- ├── main_LQR_SMC_script.m # MATLAB script for LQR and SMC controller derivation
-├── singlcontact_control_smc_lqr_mydimes_reaction.slx # Main Simulink model for single-leg control
-├── walkingRobotUtils.slx # Supporting Simulink model for gait utilities
-└── legInvKin.m # Function for inverse kinematics of the leg
-
 ## ⚙️ Requirements
 - MATLAB R2023a or later  
 - Simulink  
@@ -40,17 +35,18 @@ while the low-level joint control combines:
 - 90% MSE reduction in knee tracking with NN-SMC + LQR  
 - Maintains stability under applied disturbances
 
-⚙️ System Parameters
-Parameter	Symbol	Value	Unit
-Body Mass	M	6.0	kg
-Upper Leg Length	l₁	0.20	m
-Lower Leg Length	l₂	0.20	m
-Upper Leg Mass	m₁	0.45	kg
-Lower Leg Mass	m₂	0.065	kg
-Gravitational Acceleration	g	9.81	m/s²
-Body Length (X)	Lₓ	0.40	m
-Body Width (Y)	Lᵧ	0.20	m
-Body Height (Z)	L𝓏	0.15	m
+| **Parameter**              | **Symbol** | **Value** | **Unit** |
+| -------------------------- | ---------- | --------- | -------- |
+| Body Mass                  | *M*        | 6.0       | kg       |
+| Upper Leg Length           | *l₁*       | 0.20      | m        |
+| Lower Leg Length           | *l₂*       | 0.20      | m        |
+| Upper Leg Mass             | *m₁*       | 0.45      | kg       |
+| Lower Leg Mass             | *m₂*       | 0.065     | kg       |
+| Gravitational Acceleration | *g*        | 9.81      | m/s²     |
+| Body Length (X-axis)       | *Lₓ*       | 0.40      | m        |
+| Body Width (Y-axis)        | *Lᵧ*       | 0.20      | m        |
+| Body Height (Z-axis)       | *L𝓏*      | 0.15      | m        |
+
 
 🧮 ZMP Formulation (LIPM Approximation)
 
